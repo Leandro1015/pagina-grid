@@ -1,3 +1,5 @@
+/*------------INICIO------------*/
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -5,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #d48610;
+    background-color: #422a06;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -38,7 +40,7 @@ nav ul li a {
 }
 
 section {
-    background-color: #fff;
+    background-color: #e7d9c1;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -66,6 +68,7 @@ footer {
 
 .producto {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .producto img {
@@ -80,4 +83,53 @@ footer {
     grid-template-rows: auto;
     grid-gap: 20px;
     padding: 20px;  
+}
+
+.contacto form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contacto form input[type="text"],
+.contacto form input[type="email"],
+.contacto form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contacto form button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contacto button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/*---------------Para Comer y Beber-------------*/
+
+.titulo2 {
+    background-color: #d3af62;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.titulo {
+    color: #422a06;
+    text-align: center;
+}
+
+.lineaSeparadora {
+    border: 2px solid #b1aeae;
+    margin-bottom: 30px;
 }
