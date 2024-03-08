@@ -1,4 +1,4 @@
-/*------------INICIO------------*/
+/*------------ PAGINA DE INICIO------------*/
 
 body {
     margin: 0;
@@ -33,9 +33,9 @@ nav ul li a {
 }
 
 #contenedor {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 20px;
+    display: grid; /* Utilizo el sistema de grid */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Las columnas se ajustan automáticamente al ancho del contenedor, con un ancho mínimo de 300px y un ancho máximo de 1 fracción del espacio disponible */
+    grid-gap: 20px; /* Espacio de 20px entre las celdas de la cuadrícula */
     padding: 20px;
 }
 
@@ -77,33 +77,33 @@ footer {
     border-radius: 10px;
 }
 
-#contenedor2{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    grid-gap: 20px;
-    padding: 20px;  
+#contenedor2 {
+    display: grid; /* Utilizo el sistema de grid */
+    grid-template-columns: 1fr; /* Una columna con un ancho fraccional del espacio disponible */
+    grid-template-rows: auto; /* Las filas se ajustan automáticamente al contenido */
+    grid-gap: 20px; /* Espacio de 20px entre las celdas de la cuadrícula */
+    padding: 20px;
 }
 
-.contacto form label {
+#contacto form label {
     display: block;
     margin-bottom: 10px;
 }
 
-.contacto form input[type="text"],
-.contacto form input[type="email"],
-.contacto form textarea {
+#contacto form input[type="text"],
+#contacto form input[type="email"],
+#contacto form textarea {
     display: block;
     width: 100%;
     margin-bottom: 10px;
 }
 
-.contacto form button {
+#contacto form button {
     display: block;
     margin-bottom: 10px;
 }
 
-.contacto button {
+#contacto button {
     background-color: #ff5722;
     color: white;
     border: none;
@@ -112,7 +112,7 @@ footer {
     border-radius: 5px;
 }
 
-/*---------------Para Comer y Beber-------------*/
+/*---------------Página Para Comer y Beber-------------*/
 
 .titulo2 {
     background-color: #d3af62;
